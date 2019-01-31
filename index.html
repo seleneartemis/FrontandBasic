@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<div id="London" class="tabcontent">
+	  <h1>London</h1>
+	  <p>London is the capital city of England.</p>
+	</div>
+
+	<div id="Paris" class="tabcontent">
+	  <h1>Paris</h1>
+	  <p>Paris is the capital of France.</p> 
+	</div>
+
+	<div id="Tokyo" class="tabcontent">
+	  <h1>Tokyo</h1>
+	  <p>Tokyo is the capital of Japan.</p>
+	</div>
+
+	<div id="Oslo" class="tabcontent">
+	  <h1>Oslo</h1>
+	  <p>Oslo is the capital of Norway.</p>
+	</div>
+
+	<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+	<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+	<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+	<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+</head>
+<body>
+	<link rel="stylesheet" href="style.css">
+	<slider id = "slides" class = "slider"> 
+		<slide> <p> London </p> </slide>
+		<slide> <p> Paris </p> </slide>
+		<slide> <p> Tokyo </p> </slide>
+		<slide> <p> Oslo </p> </slide>
+	</slider>
+		<script src="script.js"></script>
+</body>
+</html>
